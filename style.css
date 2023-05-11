@@ -3,8 +3,16 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+ol { 
+list-style: none; 
+padding-left: 5px; 
+text-align: center; 
+padding: 0.2rem; 
+}
+a { 
+color:blue; 
+text-decoration: none;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -23,30 +31,63 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
-h1{
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-}
 h2 {
     font-size: 1.8rem;
     font-weight: 600;
-    margin: 0;
-    padding: 0;
+    margin-top: 0.5rem;
     text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    border-bottom: solid 1px #afaeae;
+    text-align: center;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    text-align: left;
 }
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    text-align: center;
+    font-style: italic;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
+    padding-left: 0.8rem;
+
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    padding-right: 0.8rem;
 }
-figure {
+figure{
+    padding: 3px;
     text-align: center;
+}
+.Imagens-Conteudo {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    padding: 3px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 720px;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+    text-align: center;
+}
+ul{
+    padding: 0.2rem;
+    text-align: left;
+}
+li{
+    margin-bottom: 0.5rem;
 }
